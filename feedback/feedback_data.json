@@ -1,0 +1,2547 @@
+[
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/1.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.83745276927948,
+            "bbox": [
+                0.34766826033592224,
+                0.2821388840675354,
+                0.574741542339325,
+                0.6255597472190857
+            ]
+        },
+        "human_correction": [
+            0.34992283950617287,
+            0.13310185185185186,
+            0.6448688271604939,
+            0.7390046296296297
+        ],
+        "rating": 4.0,
+        "comments": "The bounding box is covering 2/3 of the face. It is missing the forehead, a cheek, and the chin.",
+        "timestamp": "2025-02-03T18:15:17.471716",
+        "image_size": [
+            3456,
+            5184
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/2.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.9227427244186401,
+            "bbox": [
+                0.3950638771057129,
+                0.3266676664352417,
+                0.6776516437530518,
+                0.6803961992263794
+            ]
+        },
+        "human_correction": [
+            0.24166666666666667,
+            0.295,
+            0.6666666666666666,
+            0.7266666666666667
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 6/10 of the face. It is missing an eye, a cheek, an eyebrown, and part of the forehead.",
+        "timestamp": "2025-02-03T18:17:25.883417",
+        "image_size": [
+            3000,
+            2400
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/3.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.7160938382148743,
+            "bbox": [
+                0.394823282957077,
+                0.23627030849456787,
+                0.5921701788902283,
+                0.5195900797843933
+            ]
+        },
+        "human_correction": [
+            0.2545297670405522,
+            0.13283496262219666,
+            0.6747195858498706,
+            0.5411155836687752
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 2/5 of the face. It is missing the forehead, a cheek, part of the both eyes, and both eyebrowns, and the middle of an eye.",
+        "timestamp": "2025-02-03T18:19:06.196886",
+        "image_size": [
+            1739,
+            1159
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/4.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.7558389902114868,
+            "bbox": [
+                0.33931538462638855,
+                0.35960912704467773,
+                0.5754503011703491,
+                0.7103778719902039
+            ]
+        },
+        "human_correction": [
+            0.546875,
+            0.007042253521126761,
+            0.915625,
+            0.7699530516431925
+        ],
+        "rating": 2.0,
+        "comments": "The bounding box is not covering any part of the face. It missing everything. However, the detection is good.",
+        "timestamp": "2025-02-03T18:20:18.868675",
+        "image_size": [
+            426,
+            640
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/5.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.9226681590080261,
+            "bbox": [
+                0.3677714765071869,
+                0.34668558835983276,
+                0.6494576930999756,
+                0.690823495388031
+            ]
+        },
+        "human_correction": [
+            0.2619745845552297,
+            0.12884333821376281,
+            0.5053763440860215,
+            0.6544655929721815
+        ],
+        "rating": 2.0,
+        "comments": "The bounding box is covering 1/4 of the face. It is missing both eyes, both eyebrowns, a cheek and the forehead.",
+        "timestamp": "2025-02-03T18:21:17.059781",
+        "image_size": [
+            683,
+            1023
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/6.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.8327588438987732,
+            "bbox": [
+                0.3687938153743744,
+                0.3132055997848511,
+                0.6075751781463623,
+                0.6611723303794861
+            ]
+        },
+        "human_correction": [
+            0.34507042253521125,
+            0.14794921875,
+            0.6800804828973843,
+            0.59619140625
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 6/10 of the face. It is missing both eyebrowns, a cheek, and the forehead. ",
+        "timestamp": "2025-02-03T18:22:15.677531",
+        "image_size": [
+            2048,
+            1988
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/7.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.6017381548881531,
+            "bbox": [
+                0.41540631651878357,
+                0.22388821840286255,
+                0.5523530840873718,
+                0.45587584376335144
+            ]
+        },
+        "human_correction": [
+            0.3506172839506173,
+            0.1296,
+            0.6432098765432098,
+            0.6048
+        ],
+        "rating": 2.0,
+        "comments": "The bounding box is covering 1/4 of the face. It is missing the middle of both eyes, both cheeks, the chin and the forehead.",
+        "timestamp": "2025-02-03T18:23:08.377402",
+        "image_size": [
+            625,
+            810
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/8.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.8819578289985657,
+            "bbox": [
+                0.3502621650695801,
+                0.298570454120636,
+                0.59333336353302,
+                0.7110067009925842
+            ]
+        },
+        "human_correction": [
+            0.2531446540880503,
+            0.20754716981132076,
+            0.7641509433962265,
+            0.7240566037735849
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 1/3 of the face. It is missing an eye, an eyebrown, a cheek, a part of the another cheek, and part of the forehead.",
+        "timestamp": "2025-02-03T18:45:00.582858",
+        "image_size": [
+            848,
+            636
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/9.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.9664186835289001,
+            "bbox": [
+                0.2878008484840393,
+                0.34958401322364807,
+                0.6373639106750488,
+                0.6917591691017151
+            ]
+        },
+        "human_correction": [
+            0.19666666666666666,
+            0.11,
+            0.69,
+            0.5675
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 4/7 of the face. It is missing both eyes, both eyebrowns, the nose, and the forehead.",
+        "timestamp": "2025-02-03T20:40:17.212917",
+        "image_size": [
+            400,
+            300
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/10.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.6861937046051025,
+            "bbox": [
+                0.37296631932258606,
+                0.2776047885417938,
+                0.5489104986190796,
+                0.5745362043380737
+            ]
+        },
+        "human_correction": [
+            0.235,
+            0.175,
+            0.4421428571428571,
+            0.6428571428571429
+        ],
+        "rating": 2.0,
+        "comments": "The bounding box is covering 1/4 of the face. It is missing the nose, the middle of the mouth, a part of the chin, a cheek, an eye, an eyebrown, and the forehead.",
+        "timestamp": "2025-02-03T20:41:41.371658",
+        "image_size": [
+            840,
+            1400
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/11.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": false,
+            "confidence": 0.38956496119499207,
+            "bbox": null
+        },
+        "human_correction": [
+            0.5258333333333334,
+            0.1339712918660287,
+            0.6675,
+            0.518341307814992
+        ],
+        "rating": 1.0,
+        "comments": "Since the detection is under 50, then the detection and bounding box are poor.",
+        "timestamp": "2025-02-03T20:43:02.854580",
+        "image_size": [
+            627,
+            1200
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/12.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.9101529717445374,
+            "bbox": [
+                0.32601413130760193,
+                0.3567342758178711,
+                0.5747941732406616,
+                0.7306551337242126
+            ]
+        },
+        "human_correction": [
+            0.31333333333333335,
+            0.135,
+            0.7383333333333333,
+            0.9925
+        ],
+        "rating": 2.0,
+        "comments": "The bounding box is covering 1/5 of the face. It is missing an eye, an eyebrown, a cheek, the mouth, the chin, and the forehead.",
+        "timestamp": "2025-02-03T20:47:59.569610",
+        "image_size": [
+            400,
+            600
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/13.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.9072333574295044,
+            "bbox": [
+                0.35315340757369995,
+                0.3529570698738098,
+                0.6216335892677307,
+                0.7014472484588623
+            ]
+        },
+        "human_correction": [
+            0.27436281859070466,
+            0.108,
+            0.7961019490254873,
+            0.566
+        ],
+        "rating": 2.0,
+        "comments": "The bounding box is covering 1/4 of the face. It is missing both eyes, a cheek, both eyebrowns, and the forehead.",
+        "timestamp": "2025-02-03T20:49:11.711181",
+        "image_size": [
+            1000,
+            667
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/14.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.9488188624382019,
+            "bbox": [
+                0.3301486372947693,
+                0.3450438380241394,
+                0.6714428663253784,
+                0.6937261819839478
+            ]
+        },
+        "human_correction": [
+            0.19863013698630136,
+            0.21875,
+            0.8253424657534246,
+            0.75625
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 4/7 of the face. It is missing a cheek and a part of the another cheek, the chin, and the forehead.",
+        "timestamp": "2025-02-03T20:52:50.232528",
+        "image_size": [
+            480,
+            292
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/15.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.9486032724380493,
+            "bbox": [
+                0.3382849097251892,
+                0.39450588822364807,
+                0.6278192400932312,
+                0.6756274104118347
+            ]
+        },
+        "human_correction": [
+            0.19896640826873385,
+            0.1343669250645995,
+            0.7596899224806202,
+            0.9728682170542635
+        ],
+        "rating": 2.0,
+        "comments": "The bounding box is covering 1/4 of the face. It is missing an eye, both cheeks, the mouth, the chin, an eyebrown, and the forehead.",
+        "timestamp": "2025-02-03T20:55:21.400307",
+        "image_size": [
+            774,
+            774
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/16.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.9145166873931885,
+            "bbox": [
+                0.3402523100376129,
+                0.38278332352638245,
+                0.6087044477462769,
+                0.7240419983863831
+            ]
+        },
+        "human_correction": [
+            0.28,
+            0.06,
+            0.7175,
+            0.7175
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 1/3 of the face. It is missing both eyes, both eyebrowns, a cheek, and the forehead.",
+        "timestamp": "2025-02-03T20:57:06.654419",
+        "image_size": [
+            400,
+            400
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/17.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.5140025615692139,
+            "bbox": [
+                0.4889410436153412,
+                0.2005930095911026,
+                0.6548358201980591,
+                0.4431573152542114
+            ]
+        },
+        "human_correction": [
+            0.25390625,
+            0.11328125,
+            0.703125,
+            0.76171875
+        ],
+        "rating": 2.0,
+        "comments": "The bounding box is covering 1/5 of the face. It is missing an eye, the mouth, the nose, both cheeks, an eyebrown, the chin, and the forehead.",
+        "timestamp": "2025-02-03T21:01:29.852518",
+        "image_size": [
+            512,
+            512
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/18.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.8323457837104797,
+            "bbox": [
+                0.32316622138023376,
+                0.32616421580314636,
+                0.5526615977287292,
+                0.6890674233436584
+            ]
+        },
+        "human_correction": [
+            0.24166666666666667,
+            0.14333333333333334,
+            0.69,
+            0.54
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 1/3 of the face. It is missing a cheek, both eyes, both eyebrowns, and the forehead.",
+        "timestamp": "2025-02-03T21:02:55.325387",
+        "image_size": [
+            900,
+            600
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/19.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.8573645949363708,
+            "bbox": [
+                0.37893766164779663,
+                0.2985767424106598,
+                0.6213744878768921,
+                0.5956408381462097
+            ]
+        },
+        "human_correction": [
+            0.3132183908045977,
+            0.16594827586206898,
+            0.6896551724137931,
+            0.5452586206896551
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 4/7 of the face. It is missing part of both cheeks, an eyebrown, and the forehead.",
+        "timestamp": "2025-02-03T21:06:54.957222",
+        "image_size": [
+            464,
+            348
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/20.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.8551568984985352,
+            "bbox": [
+                0.353371798992157,
+                0.3273051083087921,
+                0.6328068971633911,
+                0.6274157166481018
+            ]
+        },
+        "human_correction": [
+            0.2838983050847458,
+            0.18983050847457628,
+            0.635593220338983,
+            0.5254237288135594
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 4/7 of the face. It is missing both eyes, both eyebrowns, and the forehead.",
+        "timestamp": "2025-02-03T21:59:50.139128",
+        "image_size": [
+            295,
+            236
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/21.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.8057963848114014,
+            "bbox": [
+                0.34057116508483887,
+                0.2643589973449707,
+                0.5380345582962036,
+                0.6091896891593933
+            ]
+        },
+        "human_correction": [
+            0.2866666666666667,
+            0.19777777777777777,
+            0.745,
+            0.5844444444444444
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 4/7 of the face. It is missing an eye, an eyebrown, a cheek, a part of the chin, a part of the mouth, and a part of the forehead.",
+        "timestamp": "2025-02-03T22:04:07.237826",
+        "image_size": [
+            900,
+            600
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/22.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": false,
+            "confidence": 0.061407700181007385,
+            "bbox": null
+        },
+        "human_correction": [
+            0.5035897435897436,
+            0.12923076923076923,
+            0.6369230769230769,
+            0.39076923076923076
+        ],
+        "rating": 0.0,
+        "comments": "Completely wrong.",
+        "timestamp": "2025-02-03T22:04:32.106671",
+        "image_size": [
+            650,
+            975
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/23.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.6947668790817261,
+            "bbox": [
+                0.38544368743896484,
+                0.26673248410224915,
+                0.5913967490196228,
+                0.6229372024536133
+            ]
+        },
+        "human_correction": [
+            0.38666666666666666,
+            0.12970521541950114,
+            0.752,
+            0.46802721088435373
+        ],
+        "rating": 2.0,
+        "comments": "The bounding box is covering 1/4 of the face. It is missing both eyes, both eyebrowns, the middle of the mouth, the middle of the chin, a cheek, the nose, and the forehead.",
+        "timestamp": "2025-02-03T22:05:56.105239",
+        "image_size": [
+            2205,
+            1500
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/24.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.7970635294914246,
+            "bbox": [
+                0.42455601692199707,
+                0.2689679265022278,
+                0.6555567383766174,
+                0.581511378288269
+            ]
+        },
+        "human_correction": [
+            0.325,
+            0.12471131639722864,
+            0.6777777777777778,
+            0.5658198614318707
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 4/7 of the face. It is missing the forehead, a cheek, both eyebrowns, and an eye.",
+        "timestamp": "2025-02-03T22:07:11.031442",
+        "image_size": [
+            433,
+            360
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/25.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.8378393054008484,
+            "bbox": [
+                0.3477665185928345,
+                0.28763332962989807,
+                0.6035062670707703,
+                0.6748644113540649
+            ]
+        },
+        "human_correction": [
+            0.2269021739130435,
+            0.18738049713193117,
+            0.7105978260869565,
+            0.6195028680688337
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 4/7 of the face. It is missing an eye, a cheek, an eyebrown, and the forehead.",
+        "timestamp": "2025-02-03T22:10:36.238574",
+        "image_size": [
+            1046,
+            736
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/26.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.6065592765808105,
+            "bbox": [
+                0.34282276034355164,
+                0.23938609659671783,
+                0.5211288332939148,
+                0.4924071133136749
+            ]
+        },
+        "human_correction": [
+            0.416,
+            0.22992125984251968,
+            0.5975,
+            0.5881889763779528
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 4/7 of the face. It is missing an eye, an eyebrown, a cheek, the chin, and a part of the forehead.",
+        "timestamp": "2025-02-03T22:13:19.236748",
+        "image_size": [
+            1270,
+            2000
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/27.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.9205077886581421,
+            "bbox": [
+                0.3521786332130432,
+                0.35213035345077515,
+                0.6131083369255066,
+                0.6608962416648865
+            ]
+        },
+        "human_correction": [
+            0.4011834319526627,
+            0.17491166077738515,
+            0.5893491124260355,
+            0.5795053003533569
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 1/2 of the face. It is missing both eyes, both eyebrowns, and the forehead.",
+        "timestamp": "2025-02-03T22:14:18.704447",
+        "image_size": [
+            566,
+            845
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/28.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.7994160652160645,
+            "bbox": [
+                0.3787776231765747,
+                0.28698107600212097,
+                0.6015670299530029,
+                0.6275877952575684
+            ]
+        },
+        "human_correction": [
+            0.376,
+            0.19640179910044978,
+            0.58,
+            0.5629685157421289
+        ],
+        "rating": 4.0,
+        "comments": "The bounding box is covering 2/3 of the face. It is only missing the forehead.",
+        "timestamp": "2025-02-03T22:15:18.449194",
+        "image_size": [
+            1334,
+            2000
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/29.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.5334329605102539,
+            "bbox": [
+                0.43936920166015625,
+                0.2972795367240906,
+                0.6623944044113159,
+                0.5721123814582825
+            ]
+        },
+        "human_correction": [
+            0.29583333333333334,
+            0.10926694329183956,
+            0.6041666666666666,
+            0.47717842323651455
+        ],
+        "rating": 2.0,
+        "comments": "The bounding box is covering 1/4 of the face. It is missing both eyes, both eyebrowns, a cheek, and the forehead.",
+        "timestamp": "2025-02-03T22:16:33.909984",
+        "image_size": [
+            723,
+            720
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/30.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.5194641351699829,
+            "bbox": [
+                0.4029182493686676,
+                0.11827649176120758,
+                0.5321274399757385,
+                0.3365643620491028
+            ]
+        },
+        "human_correction": [
+            0.3307291666666667,
+            0.46826171875,
+            0.6686197916666666,
+            0.89306640625
+        ],
+        "rating": 1.0,
+        "comments": "The bounding box is not covering any part of the face. It is poor and the detection is also poor.",
+        "timestamp": "2025-02-03T22:17:33.224270",
+        "image_size": [
+            2048,
+            1536
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/31.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": false,
+            "confidence": 0.4935869574546814,
+            "bbox": null
+        },
+        "human_correction": [
+            0.3627450980392157,
+            0.31862745098039214,
+            0.5424836601307189,
+            0.6617647058823529
+        ],
+        "rating": 0.0,
+        "comments": "There is no bounding box due to the detection. It is 0.49.",
+        "timestamp": "2025-02-03T22:18:37.018639",
+        "image_size": [
+            408,
+            612
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/32.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": false,
+            "confidence": 0.1377178430557251,
+            "bbox": null
+        },
+        "human_correction": [
+            0.3453125,
+            0.48,
+            0.615625,
+            0.7675
+        ],
+        "rating": 0.0,
+        "comments": "Completely wrong.",
+        "timestamp": "2025-02-03T22:19:01.628536",
+        "image_size": [
+            800,
+            640
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/33.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.6896634697914124,
+            "bbox": [
+                0.38305798172950745,
+                0.2817675769329071,
+                0.557715654373169,
+                0.5247734785079956
+            ]
+        },
+        "human_correction": [
+            0.3111111111111111,
+            0.25925925925925924,
+            0.6064814814814815,
+            0.5925925925925926
+        ],
+        "rating": 4.0,
+        "comments": "The bounding box is covering 2/3 of the face. It is only missing the chin and both cheeks.",
+        "timestamp": "2025-02-03T22:25:02.862608",
+        "image_size": [
+            1080,
+            1080
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/34.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.6585990786552429,
+            "bbox": [
+                0.3581079840660095,
+                0.21301782131195068,
+                0.5464641451835632,
+                0.4745143949985504
+            ]
+        },
+        "human_correction": [
+            0.44,
+            0.22188905547226387,
+            0.595,
+            0.5172413793103449
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 4/7 of the face. It is missing the chin, a cheel, and a part of the forehead, an eye and eyebrown.",
+        "timestamp": "2025-02-03T22:28:46.230210",
+        "image_size": [
+            667,
+            1000
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/35.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.9485834240913391,
+            "bbox": [
+                0.25303125381469727,
+                0.3380299508571625,
+                0.5560197830200195,
+                0.7315099835395813
+            ]
+        },
+        "human_correction": [
+            0.3090909090909091,
+            0.22272727272727272,
+            0.7863636363636364,
+            0.8090909090909091
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 1/3 of the face. It is missing an eye, an eyebrown, a cheekl, the middle of the mouth, the middle of the nose, the chin, and the forehead.",
+        "timestamp": "2025-02-03T22:30:55.774285",
+        "image_size": [
+            220,
+            220
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/36.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.5268015265464783,
+            "bbox": [
+                0.4254433512687683,
+                0.28455692529678345,
+                0.6407597064971924,
+                0.5784118175506592
+            ]
+        },
+        "human_correction": [
+            0.38375,
+            0.18574108818011256,
+            0.63875,
+            0.6791744840525328
+        ],
+        "rating": 4.0,
+        "comments": "The bounding box is covering 2/3 of the face. It is missing a part of the forehead, and part the chin.",
+        "timestamp": "2025-02-03T22:32:14.855989",
+        "image_size": [
+            533,
+            800
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/37.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": false,
+            "confidence": 0.23863282799720764,
+            "bbox": null
+        },
+        "human_correction": [
+            0.3148,
+            0.16,
+            0.5672,
+            0.3816
+        ],
+        "rating": 0.0,
+        "comments": "There is no bounding box because the detection confidence is 0.24",
+        "timestamp": "2025-02-03T22:34:46.756406",
+        "image_size": [
+            3750,
+            2500
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/38.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": false,
+            "confidence": 0.4488970935344696,
+            "bbox": null
+        },
+        "human_correction": [
+            0.3349673202614379,
+            0.18627450980392157,
+            0.4852941176470588,
+            0.45588235294117646
+        ],
+        "rating": 1.0,
+        "comments": "There is no bounding box since the detection confidence is 0.45.",
+        "timestamp": "2025-02-03T22:36:22.327023",
+        "image_size": [
+            408,
+            612
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/39.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": false,
+            "confidence": 0.13515524566173553,
+            "bbox": null
+        },
+        "human_correction": [
+            0.5016339869281046,
+            0.20098039215686275,
+            0.6437908496732027,
+            0.4583333333333333
+        ],
+        "rating": 0.0,
+        "comments": "Completely wrong.",
+        "timestamp": "2025-02-03T22:36:48.799301",
+        "image_size": [
+            408,
+            612
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/40.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.8392518758773804,
+            "bbox": [
+                0.37417662143707275,
+                0.3227439522743225,
+                0.584947407245636,
+                0.683179497718811
+            ]
+        },
+        "human_correction": [
+            0.38996138996138996,
+            0.15833333333333333,
+            0.6428571428571429,
+            0.6305555555555555
+        ],
+        "rating": 3.0,
+        "comments": "The bounding  box is 4/7 of the face. It is missing a cheek, both eyebrowns, and the forehead.",
+        "timestamp": "2025-02-03T22:37:39.545515",
+        "image_size": [
+            360,
+            518
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/41.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.8486986756324768,
+            "bbox": [
+                0.3825867474079132,
+                0.3089148998260498,
+                0.5896304249763489,
+                0.661195695400238
+            ]
+        },
+        "human_correction": [
+            0.22569444444444445,
+            0.1361111111111111,
+            0.6458333333333334,
+            0.5861111111111111
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 1/3 of the face. It is missing an eye, both eyebrowns, the middle of the mouth, the middle of the chin, the middle of the nose, and the forehead.",
+        "timestamp": "2025-02-03T22:45:56.566730",
+        "image_size": [
+            360,
+            288
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/42.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.9207796454429626,
+            "bbox": [
+                0.30565327405929565,
+                0.3617800176143646,
+                0.5924932956695557,
+                0.6869173049926758
+            ]
+        },
+        "human_correction": [
+            0.2330508474576271,
+            0.07627118644067797,
+            0.809322033898305,
+            0.576271186440678
+        ],
+        "rating": 2.0,
+        "comments": "The bounding box is covering 1/4 of the face. It is missing the nose, the middle of the mouth, a cheek, the middle of the chin, both eyes, both eyebrowns, and the forehead.",
+        "timestamp": "2025-02-03T22:47:33.228744",
+        "image_size": [
+            354,
+            236
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/43.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.9045372605323792,
+            "bbox": [
+                0.3408554196357727,
+                0.33077341318130493,
+                0.6141478419303894,
+                0.6858628988265991
+            ]
+        },
+        "human_correction": [
+            0.32545454545454544,
+            0.3090909090909091,
+            0.6036363636363636,
+            0.76
+        ],
+        "rating": 5.0,
+        "comments": "It is only missing the chin, but it is considered as perfect.",
+        "timestamp": "2025-02-03T22:49:20.536003",
+        "image_size": [
+            825,
+            1100
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/44.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.928954005241394,
+            "bbox": [
+                0.3424372673034668,
+                0.3113109767436981,
+                0.6418869495391846,
+                0.6629629731178284
+            ]
+        },
+        "human_correction": [
+            0.35625,
+            0.26979166666666665,
+            0.65625,
+            0.6947916666666667
+        ],
+        "rating": 5.0,
+        "comments": "It is only missing a little part of the chine and a little part of the forehead.",
+        "timestamp": "2025-02-03T22:50:10.504706",
+        "image_size": [
+            960,
+            960
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/45.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.9580132961273193,
+            "bbox": [
+                0.3536238372325897,
+                0.3431033194065094,
+                0.6613093614578247,
+                0.7061196565628052
+            ]
+        },
+        "human_correction": [
+            0.17796610169491525,
+            0.18615751789976134,
+            0.809322033898305,
+            0.6539379474940334
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 4/7 of the face. It is missing both eyebrowns, both cheeks and the forehead.",
+        "timestamp": "2025-02-03T22:51:14.880243",
+        "image_size": [
+            419,
+            236
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/46.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": false,
+            "confidence": 0.255687415599823,
+            "bbox": null
+        },
+        "human_correction": [
+            0.308,
+            0.18923076923076923,
+            0.916,
+            0.8107692307692308
+        ],
+        "rating": 1.0,
+        "comments": "Since the detection confidence is 0.26 there is no bounding box. ",
+        "timestamp": "2025-02-03T22:52:19.914744",
+        "image_size": [
+            650,
+            500
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/47.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": false,
+            "confidence": 0.12418954074382782,
+            "bbox": null
+        },
+        "human_correction": [
+            0.39959973315543695,
+            0.1,
+            0.6731154102735156,
+            0.3815
+        ],
+        "rating": 0.0,
+        "comments": "Completely wrong.",
+        "timestamp": "2025-02-03T22:52:44.045796",
+        "image_size": [
+            2000,
+            1499
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/48.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.9257445335388184,
+            "bbox": [
+                0.3584302067756653,
+                0.397554486989975,
+                0.6064103245735168,
+                0.7008151412010193
+            ]
+        },
+        "human_correction": [
+            0.3129890453834116,
+            0.16493656286043828,
+            0.6885758998435054,
+            0.5305651672433679
+        ],
+        "rating": 2.0,
+        "comments": "The bounding box is covering 1/5 of the face. It is missing both cheeks, the nose, both eyes, both eyebrowns, and the forehead.",
+        "timestamp": "2025-02-03T22:53:37.802888",
+        "image_size": [
+            867,
+            639
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/49.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": false,
+            "confidence": 0.41580867767333984,
+            "bbox": null
+        },
+        "human_correction": [
+            0.43083333333333335,
+            0.245,
+            0.5625,
+            0.545
+        ],
+        "rating": 1.0,
+        "comments": "Since the detection confidence is 0.42 there is no bounding box.",
+        "timestamp": "2025-02-03T22:54:58.011092",
+        "image_size": [
+            800,
+            1200
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/50.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.8113691210746765,
+            "bbox": [
+                0.42921310663223267,
+                0.292092502117157,
+                0.6113354563713074,
+                0.6132704615592957
+            ]
+        },
+        "human_correction": [
+            0.42777777777777776,
+            0.2861111111111111,
+            0.775,
+            0.6680555555555555
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 2/5 of the face. It is missing an eye, a cheek, and part of the chin.",
+        "timestamp": "2025-02-03T22:55:53.666840",
+        "image_size": [
+            720,
+            720
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/51.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.9265382885932922,
+            "bbox": [
+                0.39059460163116455,
+                0.3669845759868622,
+                0.646248459815979,
+                0.7074466347694397
+            ]
+        },
+        "human_correction": [
+            0.40234375,
+            0.2022274325908558,
+            0.7375,
+            0.8610785463071512
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 1/3 of the face. It is missing the forehead, an eye, the chin, a cheek, and an eyebrown.",
+        "timestamp": "2025-02-03T22:57:19.763775",
+        "image_size": [
+            1706,
+            2560
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/52.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": false,
+            "confidence": 0.035371359437704086,
+            "bbox": null
+        },
+        "human_correction": [
+            0.44029850746268656,
+            0.08051341890315053,
+            0.5764925373134329,
+            0.30921820303383896
+        ],
+        "rating": 0.0,
+        "comments": "Completely wrong.",
+        "timestamp": "2025-02-03T22:58:26.921718",
+        "image_size": [
+            857,
+            1072
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/53.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": false,
+            "confidence": 0.26234859228134155,
+            "bbox": null
+        },
+        "human_correction": [
+            0.41796875,
+            0.04296875,
+            0.61953125,
+            0.31953125
+        ],
+        "rating": 1.0,
+        "comments": "Since the detection confidence is 0.26 there is no bounding box. ",
+        "timestamp": "2025-02-03T22:59:18.614309",
+        "image_size": [
+            1280,
+            1280
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/54.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": false,
+            "confidence": 0.07544047385454178,
+            "bbox": null
+        },
+        "human_correction": [
+            0.3612167300380228,
+            0.037142857142857144,
+            0.5741444866920152,
+            0.2542857142857143
+        ],
+        "rating": 0.0,
+        "comments": "Completely wrong.",
+        "timestamp": "2025-02-03T22:59:38.477394",
+        "image_size": [
+            350,
+            263
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/55.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": false,
+            "confidence": 0.343039870262146,
+            "bbox": null
+        },
+        "human_correction": [
+            0.34,
+            0.134,
+            0.534,
+            0.402
+        ],
+        "rating": 1.0,
+        "comments": "Since the detection confidence is 0.34 there is no bounding box. ",
+        "timestamp": "2025-02-03T23:00:36.579023",
+        "image_size": [
+            500,
+            500
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/56.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": false,
+            "confidence": 0.09958086162805557,
+            "bbox": null
+        },
+        "human_correction": [
+            0.425575101488498,
+            0.1513671875,
+            0.5622462787550744,
+            0.4052734375
+        ],
+        "rating": 0.0,
+        "comments": "Completely wrong.",
+        "timestamp": "2025-02-03T23:01:34.735107",
+        "image_size": [
+            1024,
+            1478
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/57.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.7757253050804138,
+            "bbox": [
+                0.34987345337867737,
+                0.2959915101528168,
+                0.5564160346984863,
+                0.6456443667411804
+            ]
+        },
+        "human_correction": [
+            0.3523809523809524,
+            0.0970625798212005,
+            0.8408163265306122,
+            0.6922094508301405
+        ],
+        "rating": 2.0,
+        "comments": "The bounding box is covering 1/5 of the face. It is missing an eye, an eyebrown, the nose, the mouth, the chin, a cheek, and the forehead.",
+        "timestamp": "2025-02-03T23:36:56.239490",
+        "image_size": [
+            783,
+            735
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/58.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.9453745484352112,
+            "bbox": [
+                0.32714852690696716,
+                0.3339956998825073,
+                0.6562349200248718,
+                0.7078413367271423
+            ]
+        },
+        "human_correction": [
+            0.17672413793103448,
+            0.18339100346020762,
+            0.5862068965517241,
+            0.671280276816609
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 4/7 of the face. It is missing an eye, a cheek, an eyebrown, and the forehead.",
+        "timestamp": "2025-02-03T23:39:05.322635",
+        "image_size": [
+            289,
+            232
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/59.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.9495956301689148,
+            "bbox": [
+                0.33287474513053894,
+                0.3446671962738037,
+                0.6591494083404541,
+                0.6923118233680725
+            ]
+        },
+        "human_correction": [
+            0.26953125,
+            0.17578125,
+            0.7734375,
+            0.91796875
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 1/3 of the face. It is missing a cheek, the forehead, the mouth, and the chin.",
+        "timestamp": "2025-02-03T23:40:58.431430",
+        "image_size": [
+            256,
+            256
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/60.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.7442823648452759,
+            "bbox": [
+                0.3941531181335449,
+                0.327719509601593,
+                0.5372532606124878,
+                0.6589171290397644
+            ]
+        },
+        "human_correction": [
+            0.26666666666666666,
+            0.27109375,
+            0.7583333333333333,
+            0.58125
+        ],
+        "rating": 2.0,
+        "comments": "The box is covering 1/5 of the face. It is missing the mouth, the nose, the chin, a cheek, an eye, an eyebrown, and the forehead.",
+        "timestamp": "2025-02-03T23:42:00.221840",
+        "image_size": [
+            1280,
+            720
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/61.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": false,
+            "confidence": 0.10411161184310913,
+            "bbox": null
+        },
+        "human_correction": [
+            0.49375,
+            0.27099841521394613,
+            0.6921875,
+            0.5594294770206022
+        ],
+        "rating": 0.0,
+        "comments": "Completely wrong.",
+        "timestamp": "2025-02-03T23:44:58.966853",
+        "image_size": [
+            631,
+            640
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/62.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.751146137714386,
+            "bbox": [
+                0.38417574763298035,
+                0.30735698342323303,
+                0.5828564167022705,
+                0.5479328632354736
+            ]
+        },
+        "human_correction": [
+            0.04888888888888889,
+            0.22666666666666666,
+            0.5644444444444444,
+            0.5433333333333333
+        ],
+        "rating": 2.0,
+        "comments": "The bounding box is covering 1/5 of the face. It is missing both eyes, both eyebrowns, the nose, a cheek, and the forehead.",
+        "timestamp": "2025-02-03T23:45:58.496698",
+        "image_size": [
+            300,
+            225
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/63.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.7627646327018738,
+            "bbox": [
+                0.40682265162467957,
+                0.33773869276046753,
+                0.5967791676521301,
+                0.6474941372871399
+            ]
+        },
+        "human_correction": [
+            0.36141304347826086,
+            0.3115942028985507,
+            0.75,
+            0.6766304347826086
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is 4/7 of the face. It is missing the chin, a cheek and a part of the forehead.",
+        "timestamp": "2025-02-03T23:46:51.184487",
+        "image_size": [
+            1104,
+            736
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/64.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.6889877319335938,
+            "bbox": [
+                0.3891890048980713,
+                0.31248846650123596,
+                0.6025615930557251,
+                0.6611822247505188
+            ]
+        },
+        "human_correction": [
+            0.34,
+            0.21833333333333332,
+            0.671,
+            0.5533333333333333
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 4/7 of the face. It is missing both cheeks, and the forehead.",
+        "timestamp": "2025-02-03T23:53:22.939967",
+        "image_size": [
+            4200,
+            3000
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/65.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": false,
+            "confidence": 0.2659844756126404,
+            "bbox": null
+        },
+        "human_correction": [
+            0.5231910946196661,
+            0.1111111111111111,
+            0.6753246753246753,
+            0.39444444444444443
+        ],
+        "rating": 1.0,
+        "comments": "Since the detection confidence is 0.27 there is no bounding box.",
+        "timestamp": "2025-02-03T23:54:05.428079",
+        "image_size": [
+            360,
+            539
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/66.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": false,
+            "confidence": 0.04534931853413582,
+            "bbox": null
+        },
+        "human_correction": [
+            0.43,
+            0.17359050445103857,
+            0.606,
+            0.3323442136498516
+        ],
+        "rating": 0.0,
+        "comments": "Completely wrong.",
+        "timestamp": "2025-02-03T23:55:30.995109",
+        "image_size": [
+            674,
+            500
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/67.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": false,
+            "confidence": 0.16614408791065216,
+            "bbox": null
+        },
+        "human_correction": [
+            0.2903225806451613,
+            0.201171875,
+            0.4993548387096774,
+            0.4345703125
+        ],
+        "rating": 0.0,
+        "comments": "Completely wrong.",
+        "timestamp": "2025-02-03T23:55:52.365960",
+        "image_size": [
+            1024,
+            775
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/68.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": false,
+            "confidence": 0.06941533833742142,
+            "bbox": null
+        },
+        "human_correction": [
+            0.4449152542372881,
+            0.1152542372881356,
+            0.6483050847457628,
+            0.3016949152542373
+        ],
+        "rating": 0.0,
+        "comments": "Completely wrong.",
+        "timestamp": "2025-02-03T23:56:18.840230",
+        "image_size": [
+            295,
+            236
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/69.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": false,
+            "confidence": 0.1544383019208908,
+            "bbox": null
+        },
+        "human_correction": [
+            0.3524,
+            0.16986666666666667,
+            0.5624,
+            0.3466666666666667
+        ],
+        "rating": 0.0,
+        "comments": "Completely wrong.",
+        "timestamp": "2025-02-03T23:56:42.547288",
+        "image_size": [
+            3750,
+            2500
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/70.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.5868962407112122,
+            "bbox": [
+                0.38287803530693054,
+                0.19119445979595184,
+                0.5398424863815308,
+                0.41929182410240173
+            ]
+        },
+        "human_correction": [
+            0.23443223443223443,
+            0.16455078125,
+            0.6322344322344322,
+            0.5
+        ],
+        "rating": 2.0,
+        "comments": "The bounding box is covering 1/4 of the face. It is missing an eye, both cheeks, an eyebrown, the mouth, the chin, and part of the forehead.",
+        "timestamp": "2025-02-03T23:57:52.651354",
+        "image_size": [
+            2048,
+            1365
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/71.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.8397426009178162,
+            "bbox": [
+                0.444251149892807,
+                0.37024590373039246,
+                0.6872755289077759,
+                0.6549113988876343
+            ]
+        },
+        "human_correction": [
+            0.3644067796610169,
+            0.1592356687898089,
+            0.6101694915254238,
+            0.4299363057324841
+        ],
+        "rating": 2.0,
+        "comments": "The bounding box is covering 1/6 of the face. It is missing the mouth, the nose, both cheeks, both eyes, both eyebrowns, and the forehead.",
+        "timestamp": "2025-02-03T23:59:38.700276",
+        "image_size": [
+            314,
+            236
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/72.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.8230490684509277,
+            "bbox": [
+                0.3720897138118744,
+                0.2610064446926117,
+                0.634270966053009,
+                0.6320796012878418
+            ]
+        },
+        "human_correction": [
+            0.30666666666666664,
+            0.124,
+            0.6186666666666667,
+            0.436
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 1/2 of the face. It is missing both eyes, both eyebrowns, and the forehead.",
+        "timestamp": "2025-02-04T00:00:27.723319",
+        "image_size": [
+            500,
+            375
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/73.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": false,
+            "confidence": 0.17196382582187653,
+            "bbox": null
+        },
+        "human_correction": [
+            0.34248366013071896,
+            0.1962890625,
+            0.5647058823529412,
+            0.4228515625
+        ],
+        "rating": 0.0,
+        "comments": "Completely wrong.",
+        "timestamp": "2025-02-04T00:01:10.569978",
+        "image_size": [
+            1024,
+            765
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/74.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.7123446464538574,
+            "bbox": [
+                0.4310353696346283,
+                0.2612161636352539,
+                0.6146648526191711,
+                0.5868313312530518
+            ]
+        },
+        "human_correction": [
+            0.29333333333333333,
+            0.205,
+            0.7422222222222222,
+            0.6516666666666666
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 1/3 of the face. It is missing an eye, an eyebrown, both cheeks, the chin. and part of the forehead.",
+        "timestamp": "2025-02-04T00:18:21.178566",
+        "image_size": [
+            600,
+            450
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/75.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.7959347367286682,
+            "bbox": [
+                0.3652069568634033,
+                0.3256473243236542,
+                0.5858712792396545,
+                0.6266380548477173
+            ]
+        },
+        "human_correction": [
+            0.298,
+            0.145,
+            0.546,
+            0.473
+        ],
+        "rating": 2.0,
+        "comments": "The bounding box is covering 2/7 of the face. It is missing the mouth, the chin, the nose, both eyes, both eyebrowns, and the forehead.",
+        "timestamp": "2025-02-04T00:19:20.217817",
+        "image_size": [
+            1000,
+            1000
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/76.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.9093254208564758,
+            "bbox": [
+                0.33801761269569397,
+                0.34898823499679565,
+                0.6748676896095276,
+                0.6625166535377502
+            ]
+        },
+        "human_correction": [
+            0.18018018018018017,
+            0.13055555555555556,
+            0.831081081081081,
+            0.6638888888888889
+        ],
+        "rating": 2.0,
+        "comments": "The bounding box is covering 1/5 of the face. It is missing both cheeks, both eyes, both eyebrowns, and the forehead.",
+        "timestamp": "2025-02-04T00:24:44.075218",
+        "image_size": [
+            720,
+            444
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/77.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.9207927584648132,
+            "bbox": [
+                0.3742397725582123,
+                0.326664000749588,
+                0.6776339411735535,
+                0.6695446372032166
+            ]
+        },
+        "human_correction": [
+            0.4053333333333333,
+            0.14590747330960854,
+            0.612,
+            0.5533807829181495
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 1/2 of the face. It is missing both eyes, both eyebrowns, and the forehead.",
+        "timestamp": "2025-02-04T00:27:10.300144",
+        "image_size": [
+            562,
+            750
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/78.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.7576078176498413,
+            "bbox": [
+                0.38695305585861206,
+                0.21542847156524658,
+                0.5992610454559326,
+                0.6312525272369385
+            ]
+        },
+        "human_correction": [
+            0.235,
+            0.20874751491053678,
+            0.6925,
+            0.68389662027833
+        ],
+        "rating": 2.0,
+        "comments": "The bounding box is covering 1/3 of the face. It is missing an eye, an brown eye, both cheeks, and the chin.",
+        "timestamp": "2025-02-04T00:30:43.639592",
+        "image_size": [
+            503,
+            400
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/79.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": false,
+            "confidence": 0.19840438663959503,
+            "bbox": null
+        },
+        "human_correction": [
+            0.44166666666666665,
+            0.034895833333333334,
+            0.6546875,
+            0.353125
+        ],
+        "rating": 0.0,
+        "comments": "Completely wrong.",
+        "timestamp": "2025-02-04T00:32:10.259378",
+        "image_size": [
+            1920,
+            1920
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/80.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.5160306096076965,
+            "bbox": [
+                0.45364463329315186,
+                0.21243087947368622,
+                0.5987478494644165,
+                0.4524865448474884
+            ]
+        },
+        "human_correction": [
+            0.4812286689419795,
+            0.18636363636363637,
+            0.7918088737201365,
+            0.5045454545454545
+        ],
+        "rating": 2.0,
+        "comments": "The bounding box is covering 1/5 of the face. It is missing both eyes, both eyebrowns, the nose, the mouth, the chin, and the forehead.",
+        "timestamp": "2025-02-04T00:34:54.267037",
+        "image_size": [
+            440,
+            293
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/81.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": false,
+            "confidence": 0.4804362952709198,
+            "bbox": null
+        },
+        "human_correction": [
+            0.352,
+            0.074,
+            0.496,
+            0.276
+        ],
+        "rating": 1.0,
+        "comments": "Since the detection confidence is 0.48, there is no bounding box. ",
+        "timestamp": "2025-02-04T00:39:07.133966",
+        "image_size": [
+            500,
+            500
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/82.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": false,
+            "confidence": 0.09322656691074371,
+            "bbox": null
+        },
+        "human_correction": [
+            0.34933333333333333,
+            0.172,
+            0.46266666666666667,
+            0.428
+        ],
+        "rating": 0.0,
+        "comments": "Completely wrong.",
+        "timestamp": "2025-02-04T00:41:09.238423",
+        "image_size": [
+            500,
+            750
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/83.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.9574562907218933,
+            "bbox": [
+                0.3457515239715576,
+                0.35383135080337524,
+                0.6722774505615234,
+                0.7277947664260864
+            ]
+        },
+        "human_correction": [
+            0.20238095238095238,
+            0.14381270903010032,
+            0.6845238095238095,
+            0.5250836120401338
+        ],
+        "rating": 2.0,
+        "comments": "The bounding box is covering 1/4 of the face. It is missing a cheek, both eyes, both eyebrowns, and the forehead.",
+        "timestamp": "2025-02-04T10:30:31.540986",
+        "image_size": [
+            299,
+            168
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/84.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.8431159257888794,
+            "bbox": [
+                0.30174094438552856,
+                0.31085294485092163,
+                0.49531978368759155,
+                0.6174778342247009
+            ]
+        },
+        "human_correction": [
+            0.327445652173913,
+            0.19978046103183314,
+            0.6426630434782609,
+            0.5598243688254665
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 1/3 of the face. It is missing an eye, the middle of the mouth, the middle of the chin, the nose, both eyebrowns, and the forehead.",
+        "timestamp": "2025-02-04T10:34:07.478325",
+        "image_size": [
+            911,
+            736
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/85.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": false,
+            "confidence": 0.05485056713223457,
+            "bbox": null
+        },
+        "human_correction": [
+            0.39466666666666667,
+            0.226,
+            0.5533333333333333,
+            0.4
+        ],
+        "rating": 0.0,
+        "comments": "Completely wrong.",
+        "timestamp": "2025-02-04T10:34:31.641127",
+        "image_size": [
+            1000,
+            750
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/86.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": false,
+            "confidence": 0.3919190466403961,
+            "bbox": null
+        },
+        "human_correction": [
+            0.4109375,
+            0.12868480725623582,
+            0.519921875,
+            0.3463718820861678
+        ],
+        "rating": 1.0,
+        "comments": "Since the detection confidence is 0.39 there is no bounding box. ",
+        "timestamp": "2025-02-04T10:35:20.155464",
+        "image_size": [
+            1764,
+            2560
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/87.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.9496924877166748,
+            "bbox": [
+                0.3311396837234497,
+                0.34953585267066956,
+                0.6285083889961243,
+                0.7068151831626892
+            ]
+        },
+        "human_correction": [
+            0.2719298245614035,
+            0.1759656652360515,
+            0.743859649122807,
+            0.7879828326180257
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 4/7 of the face. It is missing both cheeks, the middle of an eye, a middle of an eyebrown, the chin, and the forehead.",
+        "timestamp": "2025-02-04T10:40:12.697365",
+        "image_size": [
+            1165,
+            1140
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/88.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.886853039264679,
+            "bbox": [
+                0.29896917939186096,
+                0.352843701839447,
+                0.5575546622276306,
+                0.7044639587402344
+            ]
+        },
+        "human_correction": [
+            0.30831826401446655,
+            0.19258589511754068,
+            0.6763110307414105,
+            0.674502712477396
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 4/7 of the face. It is missing an eye, botheyebrowns, a cheek, and the forehead.",
+        "timestamp": "2025-02-04T10:41:08.208736",
+        "image_size": [
+            1106,
+            1106
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/89.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": false,
+            "confidence": 0.23629389703273773,
+            "bbox": null
+        },
+        "human_correction": [
+            0.477,
+            0.12788632326820604,
+            0.621,
+            0.5044404973357016
+        ],
+        "rating": 0.0,
+        "comments": "Completely wrong.",
+        "timestamp": "2025-02-04T10:41:37.758583",
+        "image_size": [
+            563,
+            1000
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/90.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.6682218909263611,
+            "bbox": [
+                0.38009393215179443,
+                0.30105698108673096,
+                0.5627797245979309,
+                0.6050289869308472
+            ]
+        },
+        "human_correction": [
+            0.33,
+            0.06666666666666667,
+            0.5166666666666667,
+            0.30333333333333334
+        ],
+        "rating": 2.0,
+        "comments": "The bounding box is not covering any part of the face. But the detection confidence is good enough.",
+        "timestamp": "2025-02-04T10:42:47.658731",
+        "image_size": [
+            300,
+            300
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/91.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.7818781733512878,
+            "bbox": [
+                0.3827660083770752,
+                0.244428813457489,
+                0.5824270248413086,
+                0.5594058632850647
+            ]
+        },
+        "human_correction": [
+            0.49411764705882355,
+            0.12612612612612611,
+            0.7588235294117647,
+            0.42342342342342343
+        ],
+        "rating": 2.0,
+        "comments": "The bounding box is covering 1/5 of the face. It is missing both eyes, both eyebrowns, the chin, the nose, a cheek, and the forehead.",
+        "timestamp": "2025-02-04T10:44:00.674022",
+        "image_size": [
+            222,
+            170
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/92.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.9696224331855774,
+            "bbox": [
+                0.30213823914527893,
+                0.3741994798183441,
+                0.6339987516403198,
+                0.7384301424026489
+            ]
+        },
+        "human_correction": [
+            0.22083333333333333,
+            0.13666666666666666,
+            0.7041666666666667,
+            0.71
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 1/2 of the face. It is missing both eyes, both eyebrowns, and the forehead.",
+        "timestamp": "2025-02-04T10:46:24.286438",
+        "image_size": [
+            300,
+            240
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/93.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.9423180818557739,
+            "bbox": [
+                0.3304561376571655,
+                0.36274832487106323,
+                0.6535136103630066,
+                0.6941734552383423
+            ]
+        },
+        "human_correction": [
+            0.298,
+            0.13658881811748053,
+            0.698,
+            0.551309271054494
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 1/3 of the face. It is missing both eyes, both eyebrowns, the middle of the nose, and the forehead.",
+        "timestamp": "2025-02-04T10:47:18.989265",
+        "image_size": [
+            1413,
+            1000
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/94.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.788515567779541,
+            "bbox": [
+                0.3674125671386719,
+                0.27690449357032776,
+                0.5903254151344299,
+                0.6152486801147461
+            ]
+        },
+        "human_correction": [
+            0.442,
+            0.1628498727735369,
+            0.619,
+            0.4643765903307888
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 4/7 of the face. It is missing both eyes, both eyebrowns, and the forehead.",
+        "timestamp": "2025-02-04T10:48:16.952881",
+        "image_size": [
+            786,
+            1000
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/95.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.7755120992660522,
+            "bbox": [
+                0.347543329000473,
+                0.30377280712127686,
+                0.5602714419364929,
+                0.6446933746337891
+            ]
+        },
+        "human_correction": [
+            0.315,
+            0.19,
+            0.5975,
+            0.54
+        ],
+        "rating": 4.0,
+        "comments": "The bounding box is covering 2/3 of the face. It is missing  the forehead.",
+        "timestamp": "2025-02-04T10:49:24.884949",
+        "image_size": [
+            400,
+            400
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/96.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.6577137112617493,
+            "bbox": [
+                0.40357816219329834,
+                0.2907501757144928,
+                0.6003832221031189,
+                0.5896574854850769
+            ]
+        },
+        "human_correction": [
+            0.4234375,
+            0.09133489461358314,
+            0.6140625,
+            0.4613583138173302
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 1/2 of the face. It is missing both eyes, the nose, both eyebrowns, an the forehead.",
+        "timestamp": "2025-02-04T10:50:17.517040",
+        "image_size": [
+            427,
+            640
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/97.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": false,
+            "confidence": 0.034261610358953476,
+            "bbox": null
+        },
+        "human_correction": [
+            0.26260869565217393,
+            0.0982824427480916,
+            0.5988405797101449,
+            0.47662213740458015
+        ],
+        "rating": 0.0,
+        "comments": "Completely wrong.",
+        "timestamp": "2025-02-04T10:50:39.974956",
+        "image_size": [
+            2096,
+            1725
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/98.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": false,
+            "confidence": 0.054943643510341644,
+            "bbox": null
+        },
+        "human_correction": [
+            0.4543103448275862,
+            0.07761966364812418,
+            0.5482758620689655,
+            0.296248382923674
+        ],
+        "rating": 0.0,
+        "comments": "Completely wrong.",
+        "timestamp": "2025-02-04T10:51:00.699394",
+        "image_size": [
+            773,
+            1160
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/99.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": false,
+            "confidence": 0.3515321612358093,
+            "bbox": null
+        },
+        "human_correction": [
+            0.16875,
+            0.071875,
+            0.43125,
+            0.446875
+        ],
+        "rating": 1.0,
+        "comments": "Since the detection confidence is 0.35, there is no bounding box. ",
+        "timestamp": "2025-02-04T10:51:45.116545",
+        "image_size": [
+            640,
+            640
+        ]
+    },
+    {
+        "image_path": "C:/Users/alvar/GitHub/FaceDetectionRLHF/rlhf/data/100.jpg",
+        "model_name": "face_detection_20250130_121042",
+        "model_prediction": {
+            "has_face": true,
+            "confidence": 0.8456500768661499,
+            "bbox": [
+                0.29811587929725647,
+                0.391965389251709,
+                0.5240943431854248,
+                0.6883627772331238
+            ]
+        },
+        "human_correction": [
+            0.23375,
+            0.304307974335472,
+            0.68375,
+            0.6828597616865261
+        ],
+        "rating": 3.0,
+        "comments": "The bounding box is covering 3/7 of the face. It is missing an eye, the middle of an eyebrown, a cheek, the middle of the chin, and the forehead.",
+        "timestamp": "2025-02-04T10:52:56.541287",
+        "image_size": [
+            1091,
+            800
+        ]
+    }
+]

@@ -1,0 +1,8 @@
+Rate (0-5):
+
+5: Perfect detection and bbox (1/1 of the face)
+4: Good detection, minor bbox issues (>2/3 of the face)
+3: Correct detection, noticeable bbox issues (>1/3 of the face)
+2: Correct detection, poor bbox (<1/3 of the face)
+1: Poor detection and bbox (< 1/3 of the face and <50% of detection)
+0: Completely wrong (<25% of detection, wrong bounding box)

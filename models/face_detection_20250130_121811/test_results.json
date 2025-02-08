@@ -1,0 +1,12 @@
+{
+    "test_total_loss": 10.095141410827637,
+    "test_class_loss": 0.20725999772548676,
+    "test_class_accuracy": 1.0,
+    "test_class_precision": 1.0,
+    "test_class_recall": 1.0,
+    "test_f1_score": 1.0,
+    "test_reg_loss": 5.913936138153076,
+    "test_reg_mae": 0.15847209095954895,
+    "test_reg_mse": 0.06884944438934326,
+    "test_reg_rmse": 0.2623917758464813
+}

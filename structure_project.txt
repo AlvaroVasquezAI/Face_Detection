@@ -1,0 +1,135 @@
+face_detection/
+│
+├── Data/                      
+│   ├── Test/   
+│       ├── Images/ 
+│           ├── x_y.jpg
+│           ├── ...
+│       └── Labels/
+│           ├── x_y.json
+│           ├── ...
+│   ├── Train/  
+│       ├── Images/ 
+│           ├── x_y.jpg
+│           ├── ...
+│       └── Labels/
+│           ├── x_y.json
+│           ├── ...
+│   ├── Validation/ 
+│       ├── Images/  
+│           ├── x_y.jpg
+│           ├── ...
+│       └── Labels/
+│           ├── x_y.json
+│           ├── ...
+│   └── Data.csv
+│
+├── feedback/            
+│   ├── criteria.txt    
+│   ├── feedback_data.json    
+│   ├── feedback_metrics.json  
+│   └── verify_feedback.py   
+│
+├── grid_search_results/                
+│   ├── combination_1.json    
+│   ├── ...
+│   ├── grid_search_results.csv 
+│   └── grid_search.log
+│
+├── models/                      
+│   ├── face_detection_XXXXXX/   
+│       ├── best_weights.weights.h5
+│       ├── evaluation_results.png
+│       ├── face_detection_final.weights.h5
+│       ├── model_architecture.png
+│       ├── parameters.json
+│       ├── test_results.json
+│       ├── training_history.json
+│       ├── training_log.csv
+│       └── training_time.txt
+│   ├── face_detection_XXXXXX/   
+│       ├── best_weights.weights.h5
+│       ├── evaluation_results.png
+│       ├── face_detection_final.weights.h5
+│       ├── model_architecture.png
+│       ├── parameters.json
+│       ├── test_results.json
+│       ├── training_history.json
+│       ├── training_log.csv
+│       └── training_time.txt
+│   └── ... 
+│
+├── results/           
+│   ├── best_model_improved_results/   
+│       ├── orignal_dataset/
+│           ├── 1.png
+│           ├── ...
+│           └── 5.png
+│       ├── real_world_dataset/
+│           ├── 1.png
+│           ├── ...
+│           └── 5.png
+│       └── rlhf_dataset/
+│           ├── 1.png
+│           ├── ...
+│           └── 5.png
+│   ├── best_model_results/   
+│       ├── orignal_dataset/
+│           ├── 1.png
+│           ├── ...
+│           └── 5.png
+│       ├── real_world_dataset/
+│           ├── 1.png
+│           ├── ...
+│           └── 5.png
+│       └── rlhf_dataset/
+│           ├── 1.png
+│           ├── ...
+│           └── 5.png    
+│   └── rlhf/   
+│       ├── analysis_feedback.png
+│       ├── reedback1.png
+│       └── ...
+│
+├── rlhf/                   
+│   ├── data/   
+│       ├── 1.png
+│       ├── ...
+│       └── 100.png
+│   ├── __init__.py 
+│   ├── analysis_and_retrain.py  
+│   ├── augmentation.py
+│   ├── dataset_creator.py
+│   ├── model_improver.py
+│   └── utils.py
+│
+├── scripts/
+│   ├── train_gridSearch.py
+│   └── train.py   
+│
+├── src/                     
+│   ├── __init__.py
+│   │
+│   ├── feedback/
+│   │   ├── __init__.py
+│   │   ├── collector.py        
+│   │   └── metrics.py   
+│   │
+│   ├── gui/
+│   │   ├── __init__.py
+│   │   ├── app.py       
+│   │   ├── drawing_canvas.py
+│   │   ├── Face_Detection_Tracker.py
+│   │   └── feedback_gui.py
+│   │
+│   ├── model/
+│   │   ├── __init__.py
+│   │   ├── data_processor.py     
+│   │   └── face_detection.py         
+│   │
+│   └── utils/
+│       ├── __init__.py
+│       └── gpu_utils.py  
+│
+├── structure_project.txt
+└── requirements.txt     
