@@ -13,14 +13,14 @@ What sets this project apart is its end-to-end implementation of the RLHF concep
 ## Table of Contents
 - [Overview](#overview)
 - [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Dataset](#dataset)
 - [Model Architecture](#model-architecture)
 - [Training with Grid Search](#training-with-grid-search)
 - [RLHF Implementation](#rlhf-implementation)
 - [Results](#results)
 - [GUI Application](#gui-application)
+- [Installation](#installation)
+- [Usage](#usage)
 - [License](#license)
 
 ## Overview
@@ -162,3 +162,88 @@ face_detection/
    - Result visualization
 
 This structure ensures modular development, easy maintenance, and systematic tracking of experiments and improvements.
+
+## Dataset
+
+The project utilizes a carefully curated dataset combining images from two renowned sources: **Labeled Faces in the Wild (LFW)** and **Jack Dataset**, creating a balanced collection of 11,985 images for face detection training.
+### Dataset Distribution
+
+<table style="width:100%; border-collapse: collapse; margin: 20px 0;">
+    <thead style="background-color: #f2f2f2;">
+        <tr>
+            <th style="border: 1px solid #ddd; padding: 8px; text-align: left;">Set</th>
+            <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Total Images</th>
+            <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">% of Dataset</th>
+            <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Face Images</th>
+            <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">% Faces</th>
+            <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">No Face Images</th>
+            <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">% No Faces</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px;">Train</td>
+            <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">9588</td>
+            <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">80.00%</td>
+            <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4794</td>
+            <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">50.00%</td>
+            <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4794</td>
+            <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">50.00%</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px;">Test</td>
+            <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">1197</td>
+            <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">9.99%</td>
+            <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">598</td>
+            <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">49.96%</td>
+            <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">599</td>
+            <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">50.04%</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px;">Validation</td>
+            <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">1200</td>
+            <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">10.01%</td>
+            <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">600</td>
+            <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">50.00%</td>
+            <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">600</td>
+            <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">50.00%</td>
+        </tr>
+        <tr style="background-color: #f2f2f2; font-weight: bold;">
+            <td style="border: 1px solid #ddd; padding: 8px;">Total</td>
+            <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">11985</td>
+            <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">100.00%</td>
+            <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">5992</td>
+            <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">50.00%</td>
+            <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">5993</td>
+            <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">50.00%</td>
+        </tr>
+    </tbody>
+</table>
+
+### Sample Images
+
+<div align="center">
+  <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
+    <div>
+      <h4>LFW Dataset (Face Examples)</h4>
+      <img src="Data/Test/Images/1_1.jpg" width="250" height="250" alt="Face Example 1">
+      <img src="Data/Test/Images/64_1.jpg" width="250" height="250" alt="Face Example 2">
+    </div>
+    <div>
+      <h4>Jack Dataset (Non-face Examples)</h4>
+      <img src="Data/Test/Images/140_0.jpg" width="250" height="250" alt="Non-face Example 1">
+      <img src="Data/Test/Images/169_0.jpg" width="250" height="250" alt="Non-face Example 2">
+    </div>
+  </div>
+</div>
+
+### Key Characteristics
+
+- **Image Format**: JPG
+- **Dimensions**: 250x250 pixels (standardized)
+- **Color Space**: RGB
+- **Class Balance**: Near-perfect (50% faces, 50% non-faces)
+- **Split Ratio**: 80% train, 10% validation, 10% test
+- **Annotations**: Bounding box coordinates in JSON format
+
+The dataset's balanced nature and diverse composition provide a solid foundation for training a robust face detection model, while its standardized format ensures consistent processing throughout the pipeline.
