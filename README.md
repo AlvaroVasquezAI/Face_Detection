@@ -61,3 +61,104 @@ The project is trained on a balanced dataset of 11,985 images, with a comprehens
     <img src="results/best_model_improved_results/real_world_dataset/4.png" width="200" alt="Real World Result 4">
   </div>
 </div>
+
+## Project Structure
+
+<pre>
+face_detection/
+├── Data/                      
+│   ├── Test/   
+│       ├── Images/                  # Test set images
+│           ├── x_y.jpg
+│           └── ...
+│       └── Labels/                  # Test set annotations
+│           ├── x_y.json
+│           └── ...
+│   ├── Train/  
+│       ├── Images/                  # Training set images
+│           ├── x_y.jpg
+│           └── ...
+│       └── Labels/                  # Training set annotations
+│           ├── x_y.json
+│           └── ...
+│   ├── Validation/ 
+│       ├── Images/                  # Validation set images
+│           ├── x_y.jpg
+│           └── ...
+│       └── Labels/                  # Validation set annotations
+│           ├── x_y.json
+│           └── ...
+│   └── Data.csv                     # Dataset metadata and specifications
+│
+├── feedback/                        # Feedback system
+│   ├── criteria.txt                 # Feedback evaluation criteria
+│   ├── feedback_data.json           # Collected feedback data
+│   ├── feedback_metrics.json        # Feedback analysis metrics
+│   └── verify_feedback.py           # Feedback verification tools
+│
+├── grid_search_results/             # Hyperparameter optimization
+│   ├── combination_1.json           # Individual trial results
+│   ├── grid_search_results.csv      # Results summary
+│   └── grid_search.log             # Training logs
+│
+├── models/                          # Trained models
+│   ├── face_detection_XXXXXX/       # Model versions
+│       ├── best_weights.weights.h5  # Best model weights
+│       ├── evaluation_results.png   # Performance visualizations
+│       ├── parameters.json          # Model parameters
+│       └── training_history.json    # Training metrics
+│
+├── results/                         # Evaluation results
+│   ├── best_model_improved_results/ # RLHF-improved model results
+│       ├── orignal_dataset/         # Results on original data
+│       ├── real_world_dataset/      # Results on real-world tests
+│       └── rlhf_dataset/           # Results on RLHF data
+│   └── rlhf/                       # RLHF analysis
+│       └── analysis_feedback.png    # Feedback visualizations
+│
+├── rlhf/                           # RLHF implementation
+│   ├── data/                       # RLHF training data
+│   ├── augmentation.py             # Data augmentation
+│   ├── dataset_creator.py          # Dataset management
+│   ├── model_improver.py           # Model improvement
+│   └── utils.py                    # Utility functions
+│
+├── scripts/                        # Training scripts
+│   ├── train_gridSearch.py         # Grid search implementation
+│   └── train.py                    # Base training script
+│
+├── src/                           # Core implementation
+│   ├── feedback/                  # Feedback collection
+│   ├── gui/                      # GUI implementation
+│   ├── model/                    # Model architecture
+│   └── utils/                    # Utility functions
+│
+└── requirements.txt               # Project dependencies
+</pre>
+
+### Key Components
+
+1. **Data Organization**
+   - Structured dataset splits with images and labels
+   - Comprehensive metadata tracking
+   - Standardized annotation format
+
+2. **Model Development**
+   - Grid search optimization
+   - Multiple model versions
+   - Training and evaluation scripts
+   - Performance tracking
+
+3. **RLHF System**
+   - Feedback collection and analysis
+   - Model improvement pipeline
+   - Results visualization
+   - Data augmentation
+
+4. **User Interface**
+   - Interactive GUI application
+   - Real-time detection
+   - Feedback submission
+   - Result visualization
+
+This structure ensures modular development, easy maintenance, and systematic tracking of experiments and improvements.
