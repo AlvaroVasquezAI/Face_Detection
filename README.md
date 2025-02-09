@@ -1,10 +1,12 @@
 # Face Detection with RLHF (Reinforcement Learning from Human Feedback)
 
-A comprehensive **machine learning project** that implements an advanced face detection system combining transfer learning with human feedback for continuous improvement. The project leverages MobileNetV2's architecture as its backbone and implements a sophisticated RLHF (Reinforcement Learning from Human Feedback) pipeline, creating an adaptive system that learns from user interactions.
+A comprehensive **deep learning project** that implements an advanced face detection system combining transfer learning with human feedback for continuous improvement. While the model achieves perfect metrics in controlled environments, real-world applications present diverse challenges that require adaptive learning. This project implements RLHF (Reinforcement Learning from Human Feedback) to bridge this gap, creating a system that learns from real-world usage patterns.
 
-The model performs dual tasks: face detection with confidence scoring and precise bounding box prediction. Through a custom-built GUI application, users can not only detect faces in real-time but also provide feedback on the model's performance. This feedback is systematically collected and analyzed through a two-phase training approach that prioritizes challenging cases, ensuring the model continuously improves its accuracy and generalization capabilities.
+The implementation leverages MobileNetV2's architecture as its backbone and performs dual tasks: face detection with confidence scoring and precise bounding box prediction. Through a custom-built GUI application, users can detect faces in real-time and provide feedback on the model's performance. This feedback is systematically collected and analyzed through a two-phase training approach that prioritizes challenging cases, ensuring continuous improvement in real-world scenarios such as varying lighting conditions, different face angles, and occlusions.
 
-What sets this project apart is its end-to-end implementation of the RLHF concept in computer vision. While traditional face detection models remain static after training, this system creates a continuous improvement loop where human feedback directly influences model behavior. The implementation includes comprehensive metrics tracking, automated parameter adjustment based on feedback patterns, and a structured approach to model enhancement.
+What sets this project apart is its end-to-end implementation of the RLHF concept in computer vision, specifically designed to enhance model generalization. While traditional face detection models remain static after training, this system creates a continuous improvement loop where human feedback directly influences model behavior. The implementation includes comprehensive metrics tracking, automated parameter adjustment based on feedback patterns, and a structured approach to model enhancement through grid search optimization and RLHF-based fine-tuning.
+
+The results demonstrate significant improvements in model generalization, with the RLHF-improved model showing enhanced performance particularly in bounding box precision (57% improvement in MSE) and overall loss reduction (64% improvement), while maintaining perfect classification metrics. This approach effectively bridges the gap between laboratory performance and real-world application, creating a more robust and adaptable face detection system.
 
 <div align="center">
   <img src="results/best_model_improved_results/rlhf_dataset/3.png" width="400" alt="Face Detection">
@@ -34,7 +36,7 @@ The implementation features three key components:
 
 The project is trained on a balanced dataset of 11,985 images, with a comprehensive evaluation system that tracks both traditional metrics and user feedback. Through the RLHF implementation, the model adapts to challenging cases and improves its performance based on real-world usage.
 
-### Some results
+### Results
 
 <div align="center">
   <h4>Dataset Results</h4>
@@ -703,3 +705,318 @@ The balanced strategy, automatically determined through feedback analysis, prove
   </div>
 </div>
 
+## Results
+
+The evaluation demonstrates the model's evolution through grid search optimization and RLHF improvement.
+
+### 1. Best Model (Grid Search)
+
+Grid search optimization (Combination ID: 13) achieved optimal performance with parameters:
+```python
+best_params = {
+    'class_weight': 0.2,
+    'reg_weight': 1.7,
+    'learning_rate': 0.0001,
+    'batch_size': 96,
+    'dropout_rate': 0.6,
+    'epochs': 25,
+    'early_stopping_patience': 7,
+    'reduce_lr_patience': 4,
+    'lr_decay_rate': 0.9
+}
+```
+
+Performance metrics:
+```python
+grid_search_metrics = {
+    # Classification Performance
+    'test_class_accuracy': 1.000,
+    'test_class_precision': 1.000,
+    'test_class_recall': 1.000,
+    'test_f1_score': 1.000,
+    
+    # Regression Performance
+    'test_reg_mae': 0.150,
+    'test_reg_mse': 0.065,
+    'test_reg_rmse': 0.255,
+    
+    # Overall Performance
+    'test_total_loss': 8.684,
+    'test_class_loss': 0.207,
+    'test_reg_loss': 5.084
+}
+```
+<div align="center">
+  <h4>Dataset Results</h4>
+  <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;">
+    <img src="results/best_model_results/original_dataset/1.png" width="200" alt="Dataset Result 1">
+    <img src="results/best_model_results/original_dataset/2.png" width="200" alt="Dataset Result 2">
+    <img src="results/best_model_results/original_dataset/3.png" width="200" alt="Dataset Result 3">
+    <img src="results/best_model_results/original_dataset/4.png" width="200" alt="Dataset Result 4">
+  </div>
+  
+  <h4>RLHF Results</h4>
+  <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;">
+    <img src="results/best_model_results/rlhf_dataset/1.png" width="200" alt="RLHF Result 1">
+    <img src="results/best_model_results/rlhf_dataset/2.png" width="200" alt="RLHF Result 2">
+    <img src="results/best_model_results/rlhf_dataset/3.png" width="200" alt="RLHF Result 3">
+    <img src="results/best_model_results/rlhf_dataset/4.png" width="200" alt="RLHF Result 4">
+  </div>
+  
+  <h4>Real World Results</h4>
+  <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;">
+    <img src="results/best_model_results/real_world_dataset/1.png" width="200" alt="Real World Result 1">
+    <img src="results/best_model_results/real_world_dataset/2.png" width="200" alt="Real World Result 2">
+    <img src="results/best_model_results/real_world_dataset/3.png" width="200" alt="Real World Result 3">
+    <img src="results/best_model_results/real_world_dataset/4.png" width="200" alt="Real World Result 4">
+  </div>
+</div>
+
+
+### 2. Best Model Improved (RLHF)
+
+After RLHF implementation with balanced strategy:
+```python
+rlhf_strategy = {
+    'epochs': 40,
+    'batch_size': 48,
+    'early_stopping_patience': 12,
+    'reduce_lr_patience': 5,
+    'lr_decay_rate': 0.98,
+    'class_weight': 0.5,    
+    'reg_weight': 2.0,      
+    'learning_rate': 1e-4,  
+    'dropout_rate': 0.6     
+}
+```
+
+Final performance:
+```python
+rlhf_metrics = {
+    # Classification Performance
+    'test_class_accuracy': 1.000,
+    'test_class_precision': 1.000,
+    'test_class_recall': 1.000,
+    'test_f1_score': 1.000,
+    
+    # Regression Performance
+    'test_reg_mae': 0.114,          # 24% improvement
+    'test_reg_mse': 0.028,          # 57% improvement
+    'test_reg_rmse': 0.167,         # 34% improvement
+    
+    # Overall Performance
+    'test_total_loss': 3.110,       # 64% improvement
+    'test_class_loss': 0.240,
+    'test_reg_loss': 1.495          # 71% improvement
+}
+```
+<div align="center">
+  <h4>Dataset Results</h4>
+  <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;">
+    <img src="results/best_model_improved_results/original_dataset/1.png" width="200" alt="Dataset Result 1">
+    <img src="results/best_model_improved_results/original_dataset/2.png" width="200" alt="Dataset Result 2">
+    <img src="results/best_model_improved_results/original_dataset/3.png" width="200" alt="Dataset Result 3">
+    <img src="results/best_model_improved_results/original_dataset/4.png" width="200" alt="Dataset Result 4">
+  </div>
+  
+  <h4>RLHF Results</h4>
+  <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;">
+    <img src="results/best_model_improved_results/rlhf_dataset/1.png" width="200" alt="RLHF Result 1">
+    <img src="results/best_model_improved_results/rlhf_dataset/2.png" width="200" alt="RLHF Result 2">
+    <img src="results/best_model_improved_results/rlhf_dataset/3.png" width="200" alt="RLHF Result 3">
+    <img src="results/best_model_improved_results/rlhf_dataset/4.png" width="200" alt="RLHF Result 4">
+  </div>
+  
+  <h4>Real World Results</h4>
+  <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;">
+    <img src="results/best_model_improved_results/real_world_dataset/1.png" width="200" alt="Real World Result 1">
+    <img src="results/best_model_improved_results/real_world_dataset/2.png" width="200" alt="Real World Result 2">
+    <img src="results/best_model_improved_results/real_world_dataset/3.png" width="200" alt="Real World Result 3">
+    <img src="results/best_model_improved_results/real_world_dataset/4.png" width="200" alt="Real World Result 4">
+  </div>
+</div>
+
+The RLHF implementation significantly improved the model's performance, particularly in bounding box precision and overall loss reduction, while maintaining perfect classification metrics.
+
+## GUI Application
+
+The GUI application serves as the interface for both face detection and feedback collection, built using CustomTkinter for a modern, user-friendly experience.
+
+### Main Features
+
+1. **Model Selection and Configuration**
+   - Model loading functionality
+   - Detection threshold adjustment (0-1)
+   - Real-time parameter updates
+
+2. **Image Processing**
+   - Image loading and display
+   - Real-time face detection
+   - Bounding box visualization
+   - Detection confidence display
+
+3. **Feedback Collection**
+   - Toggle feedback mode
+   - Interactive bounding box drawing
+   - Rating system (0-5 scale)
+   - Comments section
+   - Automatic feedback storage
+
+### Usage Instructions
+
+1. **Model Loading**:
+   - Click "Select Model"
+   - Choose model directory containing weights
+   - Model name and status displayed
+
+2. **Image Processing**:
+   - Click "Select Image"
+   - Adjust detection threshold if needed
+   - View detection results:
+     * Face detection status
+     * Confidence score
+     * Bounding box coordinates
+
+3. **Feedback Submission**:
+   - Enable feedback mode
+   - Draw correction box
+   - Rate model performance (0-5)
+   - Add optional comments
+   - Submit feedback
+
+<div align="center">
+  <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+    <img src="results/rlhf/rlhf_1_1.png" alt="RLHF Preview 1">
+    <img src="results/rlhf/rlhf_1_2.png" alt="RLHF Preview 2">
+    <img src="results/rlhf/rlhf_1_3.png" alt="RLHF Preview 3">
+  </div>
+</div>
+
+<div align="center">
+  <img src="results/rlhf/feedback3.png" alt="RLHF Preview 4">
+</div>
+
+The interface provides a seamless workflow for both model evaluation and continuous improvement through user feedback.
+
+## Installation
+
+### Prerequisites
+- Python 3.8+ (3.10.15 recommended for this project)
+- CUDA-capable GPU
+- Git
+
+### Environment Setup
+
+1. Clone the repository:
+```bash
+git clone https://github.com/AlvaroVasquezAI/Face_Detection.git
+cd Face_Detection
+```
+
+2. Create and activate a virtual environment:
+```bash
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# Linux/Mac
+python3 -m venv venv
+source venv/bin/activate
+```
+
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+### Verify Installation 
+```bash
+# Test GPU support
+python -c "import tensorflow as tf; print('GPU Available:', tf.config.list_physical_devices('GPU'))"
+```
+
+For any installation issues, please refer to:
+- [TensorFlow GPU Guide](https://www.tensorflow.org/install/gpu)
+- [CustomTkinter Documentation](https://github.com/TomSchimansky/CustomTkinter)
+
+## Usage
+
+### Model Training
+
+1. **Grid Search Training**:
+```bash
+python -m scripts.train_gridSearch
+```
+This will:
+- Load and preprocess the dataset
+- Perform hyperparameter optimization
+- Save results in `grid_search_results_xxxx/`
+
+### RLHF Process
+
+1. **Collect Feedback Data** (Required First Step):
+```bash
+python -m src.gui.app
+```
+Using the GUI:
+- Load best model from grid search
+- Process multiple images (recommended: 100+)
+- For each image:
+  * Draw correction boxes
+  * Rate model performance (0-5)
+  * Provide feedback
+- Feedback saved in `feedback/feedback_data.json`
+
+2. **Verify Collected Feedback**:
+```bash
+python -m feedback.verify_feedback
+```
+This will:
+- Display collected feedback visualizations
+- Show bounding box comparisons
+- Present rating distributions
+
+3. **RLHF Training**:
+```bash
+python -m rlhf.analysis_and_retrain
+```
+This will:
+- Analyze collected feedback data
+- Determine optimal strategy
+- Retrain model with feedback
+
+### Face Detection Application
+
+1. **Launch GUI**:
+```bash
+python -m src.gui.app
+```
+
+2. **Load Model**:
+- Click "Select Model"
+- Navigate to `models/` directory
+- Select model folder containing `best_weights.weights.h5`
+
+3. **Process Images**:
+- Click "Select Image"
+- Adjust detection threshold if needed (default: 0.5)
+- View results in real-time
+
+4. **Provide Feedback**:
+- Enable feedback mode
+- Draw correction box if needed
+- Rate performance (0-5)
+- Add comments (optional)
+- Submit feedback
+
+## License
+
+MIT License
+
+Copyright (c) 2024 Alvaro Vasquez
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software.
+
+The Software is provided "AS IS", without warranty of any kind. For the full license text, please see the LICENSE file in the repository.
+
+The Labeled Faces in the Wild dataset used in this project is subject to its own licensing terms. Please refer to the [LFW dataset website](http://vis-www.cs.umass.edu/lfw/).
