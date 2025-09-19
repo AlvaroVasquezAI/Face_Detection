@@ -1,5 +1,15 @@
 # Face Detection with RLHF (Reinforcement Learning from Human Feedback)
 
+<p align="center">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow">
+<img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" alt="Keras">
+<img src="https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV">
+<img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=matplotlib&logoColor=white" alt="Matplotlib">
+</p>
+
 A comprehensive **deep learning project** that implements an advanced face detection system combining transfer learning with human feedback for continuous improvement. While the model achieves perfect metrics in controlled environments, real-world applications present diverse challenges that require adaptive learning. This project implements RLHF (Reinforcement Learning from Human Feedback) to bridge this gap, creating a system that learns from real-world usage patterns.
 
 The implementation leverages MobileNetV2's architecture as its backbone and performs dual tasks: face detection with confidence scoring and precise bounding box prediction. Through a custom-built GUI application, users can detect faces in real-time and provide feedback on the model's performance. This feedback is systematically collected and analyzed through a two-phase training approach that prioritizes challenging cases, ensuring continuous improvement in real-world scenarios such as varying lighting conditions, different face angles, and occlusions.
